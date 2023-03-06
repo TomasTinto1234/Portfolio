@@ -3,7 +3,7 @@ import image from "../img/94464195.jpg"
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className='contenedor-skills2'>
          <section id="sobremi">
       <div className="contenedor-foto">
           <img src={image} alt=""/>

@@ -8,6 +8,7 @@ import imagen4 from "../img/pi-pokemons.jpeg"
 
 const Portfolio = () => {
   return (
+    <div className='contenedor-skills4'>
          <section id="portfolio">
    <h3 className="titulo-seccion"><a href="https://github.com/TomasTinto1234" target="_blank">My Projects<i className="fa-brands fa-github"></i></a></h3>
    <div className="fila">
@@ -53,6 +54,7 @@ const Portfolio = () => {
        </div>
    </div>
   </section>
+    </div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section id="contacto">
+    <section id="contacto" >
     <h3 className="titulo-seccion"><a href="https://wa.me/+541161263966" target="_blank">Contact me now<i className="fa-brands fa-whatsapp"></i></a> <a href="https://wa.me/1161263966"></a></h3>
     <div className="contenedor-form">
         <form action="">

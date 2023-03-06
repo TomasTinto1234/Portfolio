@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
         <footer>
-  <p>Porfolio Tomas Tinto - © 2022</p>
+  <p>Portfolio Tomas Tinto - © 2022</p>
   <div className="redes">
       <a href="https://wa.me/+541161263966" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
       <a href="https://www.linkedin.com/in/tomas-tinto-320a85236/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>

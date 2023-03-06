@@ -5,6 +5,7 @@ import Footer from './Footer'
 import NavBar from './NavBar'
 import Portfolio from './Portfolio'
 import Services from './Services'
+import Habilities from './Habilities'
 
 const Home = () => {
   return (

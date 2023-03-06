@@ -2,8 +2,8 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>
-         <section id="servicios">
+    <div >
+         <section id="servicios" className='contenedor-skills3'>
     <h3 className="titulo-seccion">MY SERVICES</h3>
     <div className="fila">
         <div className="servicio">

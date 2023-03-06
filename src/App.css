@@ -289,11 +289,45 @@ html {
 /* *********************/
 
 .contenedor-skills {
-    background: linear-gradient( #beb802, rgba(33, 16, 16, 0.8)), url("img/proyecto4.jpg");
+    background: linear-gradient( #beb802, rgba(187, 183, 183, 0.8)), url("img/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+.contenedor-skills2 {
+    background: linear-gradient( #02be98, rgba(187, 183, 183, 0.8)), url("img/fondo-inicio.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+.contenedor-skills3 {
+    background: linear-gradient( #02be98, rgba(187, 183, 183, 0.8)), url("img/fondo-skills.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+.contenedor-skills4 {
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondoPorfolio.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.contenedor-skills5 {
+    background: linear-gradient(  #02be98, rgba(187, 183, 183, 0.8)), url("img/fondoPorfolio.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center center;
     padding: 100px 0;
     text-align: center;
@@ -584,6 +618,7 @@ footer a {
     #sobremi .sobremi h2 {
         font-size: 25px;
         text-align: center;
+        color: #000;
     }
     /* seccion MIS SERVICIOS */
     #servicios {
