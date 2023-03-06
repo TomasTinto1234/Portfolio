@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <div className='contenedor-skills4'>
          <section id="portfolio">
-   <h3 className="titulo-seccion"><a href="https://github.com/TomasTinto1234" target="_blank">My Projects<i className="fa-brands fa-github"></i></a></h3>
+   <h3 className="titulo-seccion">My Projects<a href="https://github.com/TomasTinto1234" target="_blank" > <i className="fa-brands fa-github"></i></a></h3>
    <div className="fila">
      <div className="proyecto">
        <div className="overlay"></div>
