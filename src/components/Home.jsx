@@ -13,6 +13,7 @@ const Home = () => {
         <NavBar/>
         <AboutMe/>
         <Portfolio/>
+        <Habilities/>
         <Services/>
         <Contact/>
         <Footer/>

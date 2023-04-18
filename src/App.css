@@ -474,10 +474,9 @@ html {
     width: 100%;
     padding: 10px;
     opacity: 0;
-    bottom: -40px;
+    bottom: -20px;
     transition: .5s;
     text-decoration: none;
-
 }
 
 #portfolio .fila .proyecto:hover .info {
