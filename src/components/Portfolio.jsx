@@ -22,7 +22,7 @@ const Portfolio = () => {
        <div className="overlay"></div>
      <img src={imagen7}  alt="Half"/>
        <div className="info">
-           <h4><a href="https://expo.dev/artifacts/eas/d5NBUhWzqQ27HHYj1Tw7LN.apk" className='as' target="_blank">Half</a></h4>
+           <h4><a href="https://expo.dev/@tomastinto/ynos1?serviceType=classic&distribution=expo-go" className='as' target="_blank">Ynos</a></h4>
            <p>React-Native</p>
        </div>
    </div>
