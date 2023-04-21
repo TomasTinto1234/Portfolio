@@ -3,14 +3,12 @@ import imagen from "../img/pi-lookhouse.jpeg"
 import imagen1 from "../img/image.png"
 import imagen2 from "../img/pi-dogs.jpeg"
 import imagen3 from "../img/pi-videogames.jpeg"
-import imagen6 from "../img/imagen6.jpeg"
-import imagen5 from "../img/imagen5.jpeg"
-import imagen7 from "../img/half2.jpeg"
-import imagen8 from "../img/calculadora.jpeg"
-import imagen9 from "../img/ToDoList.jpeg"
-import { Link } from 'react-router-dom'
-
-
+import imagen6 from "../img/vneta.jpeg"
+import imagen5 from "../img/miguelito.jpeg"
+import imagen7 from "../img/ynos.jpeg"
+import imagen8 from "../img/calcu.jpeg"
+import imagen9 from "../img/todo.jpeg"
+import imagen10 from "../img/curso.jpeg"
 
 const Portfolio = () => {
   return (
@@ -31,6 +29,14 @@ const Portfolio = () => {
      <img src={imagen5}  alt="migueloviedo"/>
        <div className="info">
            <h4><a href="https://miguel-oviedo.com/" className='as' target="_blank">MiguelOviedo</a></h4>
+           <p>Web Design</p>
+       </div>
+   </div>
+   <div className="proyecto">
+       <div className="overlay"></div>
+     <img src={imagen10}  alt="curso"/>
+       <div className="info">
+           <h4><a href="https://miguel-oviedo.com/" className='as' target="_blank">Courses</a></h4>
            <p>Web Design</p>
        </div>
    </div>
