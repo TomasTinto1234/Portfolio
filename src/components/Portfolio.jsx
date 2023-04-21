@@ -36,7 +36,7 @@ const Portfolio = () => {
        <div className="overlay"></div>
      <img src={imagen10}  alt="curso"/>
        <div className="info">
-           <h4><a href="https://miguel-oviedo.com/" className='as' target="_blank">Courses</a></h4>
+           <h4><a href="https://cursos-psi.vercel.app/" className='as' target="_blank">Courses</a></h4>
            <p>Web Design</p>
        </div>
    </div>
