@@ -6,10 +6,10 @@ import imagen3 from "../img/pi-videogames.jpeg"
 import imagen6 from "../img/vneta.jpeg"
 import imagen5 from "../img/miguelito.jpeg"
 import imagen7 from "../img/ynos.jpeg"
-import imagen8 from "../img/calcu.jpeg"
+import imagen8 from "../img/proyecto4.jpg"
 import imagen9 from "../img/todo.jpeg"
 import imagen10 from "../img/curso.jpeg"
-
+import github from "../img/GitHub-Mark.png"
 const Portfolio = () => {
   return (
     <div className='contenedor-skills4'>
@@ -40,6 +40,22 @@ const Portfolio = () => {
            <p>Web Design</p>
        </div>
    </div>
+       <div className="proyecto">
+           <div className="overlay"></div>
+           <img src={github} alt="GitHub"/>
+           <div className="info">
+               <h4><a href="https://github.com/TomasTinto1234" className='as' target="_blank">Check more Projects in github</a></h4>
+               <p>Github</p>
+           </div>
+       </div>
+      <div className="proyecto">
+           <div className="overlay"></div>
+           <img src={imagen8} alt="portfolio"/>
+           <div className="info">
+               <h4><a href="https://portfolio-tomas-tinto.vercel.app/" className='as' target="_blank">Portfolio</a></h4>
+               <p>Web Design</p>
+           </div>
+       </div>
      <div className="proyecto">
        <div className="overlay"></div>
      <img src={imagen}  alt="lookhouse"/>
@@ -52,7 +68,7 @@ const Portfolio = () => {
            <div className="overlay"></div>
            <img src={imagen6} alt="venta-libre"/>
            <div className="info">
-               <h4><a href="https://ventalibre-37qgud8y0-tomastinto1234.vercel.app/" className='as' target="_blank">Venta-Libre</a></h4>
+               <h4><a href="https://ventalibre-37qgud8y0-tomastinto1234.vercel.app/" className='as' target="_blank">(in production)Venta-Libre</a></h4>
                <p>Web Design</p>
            </div>
        </div>
@@ -60,30 +76,22 @@ const Portfolio = () => {
            <div className="overlay"></div>
            <img src={imagen1} alt="e-commerce"/>
            <div className="info">
-               <h4><a href="https://e-commerce-1pwr.vercel.app/" className='as' target="_blank">E-commerce</a></h4>
+               <h4><a href="https://e-commerce-1pwr.vercel.app/" className='as' target="_blank">(in production)E-commerce</a></h4>
                <p>Web Design</p>
            </div>
        </div>
-       <div className="proyecto">
-           <div className="overlay"></div>
-           <img src={imagen8} alt="calculadora"/>
-           <div className="info">
-               <h4><a href="https://calculadora-403qu6863-tomastinto1234.vercel.app/" className='as' target="_blank">Calculadora</a></h4>
-               <p>Web Design</p>
-           </div>
-       </div>
-       <div className="proyecto">
+      {/*   <div className="proyecto">
            <div className="overlay"></div>
            <img src={imagen9} alt="ToDo-List"/>
            <div className="info" >
                <h4><a href="https://todo-list-837qo7rqw-tomastinto1234.vercel.app/" className='as' target="_blank">ToDo List</a></h4>
                <p>Web Design</p>
            </div>
-       </div>
+       </div> */}
    </div>
-   <div className='center'>
+   {/* <div className='center'>
    <button   value="GitHub" className="btn-GitHub"><a href="https://github.com/TomasTinto1234?tab=repositories" target="_blank" className='github'>GitHub</a></button>
-   </div>
+   </div> */}
   </section>
     </div>
   )

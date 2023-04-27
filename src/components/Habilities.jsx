@@ -31,7 +31,7 @@ const Habilities = () => {
             </div>
 
             <div className="barra">
-                <div className="" id="js"></div>
+                <div className="" id="bd"></div>
             </div>
         </div>
         <div className="skill">

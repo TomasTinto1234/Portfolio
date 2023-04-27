@@ -448,11 +448,11 @@ html {
 }
 
 #portfolio .fila .proyecto {
-    max-width: 250px;
+    max-width: 150px;
     margin: 0 10px;
     padding: 10px;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #portfolio .fila .proyecto img {
@@ -492,7 +492,7 @@ html {
 
 #contacto {
     padding: 100px 15px;
-    background-color: #f3f3f3;
+    background-color: rgb(177, 177, 177);
 }
 
 #contacto .titulo-seccion {
@@ -548,8 +548,8 @@ html {
 }
 
 #contacto .btn-enviar:hover {
-    background-color: #e2da04;
-    color: #fff;
+    background-color: #a6a6a2;
+    color: #7d7d79;
 }
 /* *********************/
 /* seccion F O O T E R */
@@ -697,7 +697,7 @@ footer a {
         padding: 50px 0;
     }
     #portfolio .fila {
-        display: block;
+        display: flex;
     }
     #portfolio .fila .proyecto {
         margin: 10px auto;

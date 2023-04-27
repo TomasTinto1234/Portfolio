@@ -1,6 +1,7 @@
 import React from 'react'
 
 const NavBar = () => {
+  
   return (
     <div>
          <section id="inicio">
@@ -18,7 +19,7 @@ const NavBar = () => {
             </ul>
            </nav>
 
-          <div id="icono-nav" onClick="responsiveMenu()">
+          <div id="icono-nav" onclick="responsiveMenu()">
             <i className="fa-solid fa-bars"></i>
           </div>
 
