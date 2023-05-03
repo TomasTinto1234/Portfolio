@@ -9,6 +9,7 @@ import imagen7 from "../img/ynos.jpeg"
 import imagen8 from "../img/proyecto4.jpg"
 import imagen9 from "../img/todo.jpeg"
 import imagen10 from "../img/curso.jpeg"
+import Dolar from "../img/dol.jpeg"
 import github from "../img/GitHub-Mark.png"
 const Portfolio = () => {
   return (
@@ -42,13 +43,13 @@ const Portfolio = () => {
    </div>
        <div className="proyecto">
            <div className="overlay"></div>
-           <img src={github} alt="GitHub"/>
+           <img src={Dolar} alt="Dolar"/>
            <div className="info">
-               <h4><a href="https://github.com/TomasTinto1234" className='as' target="_blank">Check more Projects in github</a></h4>
-               <p>Github</p>
+               <h4><a href="https://dolar-lemon.vercel.app/" className='as' target="_blank">Dolar Hoy</a></h4>
+               <p>Web Design</p>
            </div>
        </div>
-      <div className="proyecto">
+       <div className="proyecto">
            <div className="overlay"></div>
            <img src={imagen8} alt="portfolio"/>
            <div className="info">
@@ -56,7 +57,15 @@ const Portfolio = () => {
                <p>Web Design</p>
            </div>
        </div>
-     <div className="proyecto">
+       <div className="proyecto">
+           <div className="overlay"></div>
+           <img src={github} alt="GitHub"/>
+           <div className="info">
+               <h4><a href="https://github.com/TomasTinto1234" className='as' target="_blank">Check more Projects in github</a></h4>
+               <p>Github</p>
+           </div>
+       </div> 
+       <div className="proyecto">
        <div className="overlay"></div>
      <img src={imagen}  alt="lookhouse"/>
        <div className="info">
@@ -71,7 +80,7 @@ const Portfolio = () => {
                <h4><a href="https://ventalibre-37qgud8y0-tomastinto1234.vercel.app/" className='as' target="_blank">(in production)Venta-Libre</a></h4>
                <p>Web Design</p>
            </div>
-       </div>
+       </div> */}
    <div className="proyecto">
            <div className="overlay"></div>
            <img src={imagen1} alt="e-commerce"/>
@@ -79,7 +88,7 @@ const Portfolio = () => {
                <h4><a href="https://e-commerce-1pwr.vercel.app/" className='as' target="_blank">(in production)E-commerce</a></h4>
                <p>Web Design</p>
            </div>
-       </div> */}
+       </div>
       {/*   <div className="proyecto">
            <div className="overlay"></div>
            <img src={imagen9} alt="ToDo-List"/>

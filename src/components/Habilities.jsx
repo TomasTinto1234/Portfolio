@@ -31,7 +31,7 @@ const Habilities = () => {
             </div>
 
             <div className="barra">
-                <div className="" id="bd"></div>
+                <div className="" ></div>
             </div>
         </div>
         <div className="skill">
@@ -41,7 +41,7 @@ const Habilities = () => {
             </div>
 
             <div className="barra">
-                <div className="" id="js"></div>
+                <div className="" ></div>
             </div>
         </div>
         <div className="skill">
@@ -51,7 +51,7 @@ const Habilities = () => {
             </div>
 
             <div className="barra">
-                <div className="" id="js"></div>
+                <div className="" ></div>
             </div>
         </div>
         <div className="skill">
@@ -61,7 +61,7 @@ const Habilities = () => {
             </div>
 
             <div className="barra">
-                <div className="" id="js"></div>
+                <div className="" ></div>
             </div>
         </div>
         <div className="skill">
@@ -71,7 +71,7 @@ const Habilities = () => {
             </div>
 
             <div className="barra">
-                <div className="" id="bd"></div>
+                <div className="" id="db"></div>
             </div>
         </div>
     </div>
