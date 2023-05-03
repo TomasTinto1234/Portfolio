@@ -64,7 +64,7 @@ const Portfolio = () => {
            <p>Web Design</p>
        </div>
    </div>
-   <div className="proyecto">
+   {/* <div className="proyecto">
            <div className="overlay"></div>
            <img src={imagen6} alt="venta-libre"/>
            <div className="info">
@@ -79,7 +79,7 @@ const Portfolio = () => {
                <h4><a href="https://e-commerce-1pwr.vercel.app/" className='as' target="_blank">(in production)E-commerce</a></h4>
                <p>Web Design</p>
            </div>
-       </div>
+       </div> */}
       {/*   <div className="proyecto">
            <div className="overlay"></div>
            <img src={imagen9} alt="ToDo-List"/>
@@ -89,9 +89,9 @@ const Portfolio = () => {
            </div>
        </div> */}
    </div>
-   {/* <div className='center'>
+   <div className='center'>
    <button   value="GitHub" className="btn-GitHub"><a href="https://github.com/TomasTinto1234?tab=repositories" target="_blank" className='github'>GitHub</a></button>
-   </div> */}
+   </div>
   </section>
     </div>
   )
