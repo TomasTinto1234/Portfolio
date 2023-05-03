@@ -9,19 +9,19 @@ const NavBar = () => {
         <header>
           <div className="contenido-header">
            <h1>TT</h1>
-           <nav id="nav" className="">
-            <ul id="links">
-             <li><a href="#inicio" className ="seleccionado" onclick="seleccionar(this)">HOME</a></li>
-             <li><a href="#sobremi" onClick="seleccionar(this)">ABOUT ME</a></li>
-             <li><a href="#portfolio" onClick="seleccionar(this)">PORTFOLIO</a></li>
-             <li><a href="#servicios" onClick="seleccionar(this)">SERVICES</a></li>
-             <li><a href="#contacto" onClick="seleccionar(this)">CONTACT</a></li>
-            </ul>
-           </nav>
+           <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
 
-          <div id="icono-nav" onclick="responsiveMenu()">
-            <i className="fa-solid fa-bars"></i>
-          </div>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
 
           <div  className="redes">
           <a href="https://wa.me/+541161263966" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
