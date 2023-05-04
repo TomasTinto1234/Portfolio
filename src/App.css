@@ -247,9 +247,9 @@ html {
     transition: .5s;
 }
 
-#servicios .fila .servicio:hover {
+/* #servicios .fila .servicio:hover {
     box-shadow: 5px 5px 10px #e2da04, -5px -5px 10px #e2da04;
-}
+} */
 
 #servicios .fila .servicio .icono {
     display: inline-block;
@@ -547,7 +547,7 @@ html {
     border: 1px solid #000;
     padding: 10px 20px;
     margin-top: 30px;
-    margin-left: 42%;
+    margin-left: 44%;
     transition: .5s;
     background-color: transparent;
 }
@@ -578,7 +578,7 @@ footer a {
 /* seccion R E S P O N S I V E */
 /* *********************/
 .as{
-    text-decoration: underline-none;
+    text-decoration: none;
     color: #fff;
 }
 .as2{
@@ -718,4 +718,17 @@ footer a {
         width: 100%;
         margin-bottom: 15px;
     }
+}
+
+.image{
+    width: 250px;
+    height: 200px;
+}
+
+#as{
+    text-decoration: none;
+}
+
+.image:hover {
+    box-shadow: 5px 5px 10px #e2da04, -5px -5px 10px #e2da04;
 }

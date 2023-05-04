@@ -13,8 +13,8 @@ const Home = () => {
         <NavBar/>
         <AboutMe/>
         <Portfolio/>
-        <Habilities/>
         <Services/>
+        <Habilities/>
         <Contact/>
         <Footer/>
     </div>
