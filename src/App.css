@@ -188,6 +188,7 @@ html {
     text-transform: uppercase;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 #sobremi .sobremi p {
@@ -497,16 +498,23 @@ html {
 
 #contacto .titulo-seccion {
     margin-bottom: 20px;
+    color: #87BE56;
+    text-decoration: none;
 }
 
 #contacto .contenedor-form {
     max-width: 1100px;
     margin: auto;
+    text-decoration: none;
+
 }
 
 #contacto .contenedor-form .fila {
     margin-bottom: 15px;
+    text-decoration: none;
+
 }
+
 
 #contacto .contenedor-form .mitad {
     display: flex;
@@ -518,6 +526,7 @@ html {
     padding: 20px;
     border-radius: 20px;
     border: none;
+    text-decoration: none;
     border: 1px solid #919191;
 }
 
@@ -534,7 +543,7 @@ html {
     font-size: 22px;
     text-transform: uppercase;
     color: #fff;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
 }
@@ -547,7 +556,7 @@ html {
     border: 1px solid #000;
     padding: 10px 20px;
     margin-top: 30px;
-    margin-left: 44%;
+    /* margin-left: 44%; */
     transition: .5s;
     background-color: transparent;
 }
@@ -582,7 +591,7 @@ footer a {
     color: #fff;
 }
 .as2{
-    text-decoration: underline-none;
+    text-decoration: none;
     color: #000;
 }
 .center{
