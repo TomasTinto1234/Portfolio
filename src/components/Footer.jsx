@@ -2,7 +2,6 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
         <footer>
   <p>Portfolio Tomas Tinto - © 2022</p>
   <div  className="redes">
@@ -13,7 +12,6 @@ const Footer = () => {
           <a href="#"></a> 
           </div>
 </footer>
-    </div>
   )
 }
 

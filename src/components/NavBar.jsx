@@ -2,6 +2,14 @@ import React from 'react'
 
 const NavBar = () => {
   
+  function responsiveMenu() {
+    const x = document.getElementById("elnav");
+    if (x.className === "elnav") {
+        x.className = "responsive";
+    } else {
+        x.className = "elnav";
+    }
+}
   return (
     <div>
          <section id="inicio">
@@ -9,19 +17,19 @@ const NavBar = () => {
         <header>
           <div className="contenido-header">
            <h1>TT</h1>
-           <nav id="nav" class="">
+           <nav id="elnav">
                         <ul id="links">
-                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
-                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
-                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#inicio"  onclick="seleccionar(this)">HOME</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">CERTIFICATE</a></li>
                             <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
-                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACT</a></li>
                         </ul>
                     </nav>
 
-                    <div id="icono-nav" onclick="responsiveMenu()">
+                    <nav id="icono-nav" onClick={()=>responsiveMenu()}>
                         <i class="fa-solid fa-bars"></i>
-                    </div>
+                    </nav>
 
           <div  className="redes">
           <a href="https://wa.me/+541161263966" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
