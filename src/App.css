@@ -72,6 +72,9 @@ html {
 #inicio .contenido header .contenido-header .redes a:hover {
     color: #87BE56;
 }
+.redes a:hover {
+    color: #87BE56;
+}
 
 #inicio .contenido header .contenido-header .seleccionado {
     color: #87BE56;
