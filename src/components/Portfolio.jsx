@@ -11,6 +11,7 @@ import imagen9 from "../img/todo.jpeg"
 import imagen10 from "../img/curso.jpeg"
 import Dolar from "../img/dol.jpeg"
 import github from "../img/GitHub-Mark.png"
+import weather from "../img/weatherapps.jpeg"
 const Portfolio = () => {
   return (
     <div className='contenedor-skills4'>
@@ -65,6 +66,14 @@ const Portfolio = () => {
                <p>Github</p>
            </div>
        </div> 
+        <div className="proyecto">
+       <div className="overlay"></div>
+     <img src={weather}  alt="weatherapp"/>
+       <div className="info">
+           <h4><a href="https://weatherapp-omega-ten.vercel.app/" className='as' target="_blank">WeatherApp</a></h4>
+           <p>Web Design</p>
+       </div>
+   </div>
        <div className="proyecto">
        <div className="overlay"></div>
      <img src={imagen}  alt="lookhouse"/>
